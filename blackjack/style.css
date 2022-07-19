@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background: url("./assets/background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    font-size: 96px;
+    font-weight: 600;
+}
+
+h3 {
+    margin-bottom: 50px;
+}
+
+#results {
+    font-size: 24px;
+}
+
+.player,
+.dealer {
+    margin: 30px 0px;
+}
+
+#dealerCards img,
+#playerCards img {
+    height: 175px;
+    width: 125px;
+    margin: 1px;
+}
+
+#hit, #stand {
+    display: inline;
+    width: 100px;
+    height: 50px;
+    font-size: 20px;
+}
+
+.buttons button {
+    border-radius: 20px;
+    margin-top: 100px;
+    width: 120px;
+}
+
+#restartButton {
+    display: none;
+}
+
+.container {
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+}
+
+.scoreboard,
+.scores,
+.buttons {
+    display: flex;
+    padding: 10px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
