@@ -1,0 +1,19 @@
+header {
+    text-align: center;
+}
+
+header h1 {
+    font-size: 50px;
+}
+
+.pick {
+    text-align: center;
+}
+.options {
+    display: inline-block;
+    margin: 30px;
+}
+
+.badges {
+    font-weight: 600;
+}
