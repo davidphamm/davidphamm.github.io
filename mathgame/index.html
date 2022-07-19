@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>10 Seconds Math Game</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h1>10 Seconds Math Game</h1>
+          <p id="highScore">High Score: 0</p>
+          <p id="score">Current Score: 0</p>
+          <div id="countdown" hidden>Time remaining: 10</div><br>
+          <div id="result"></div>
+          <button id ="startBtn" onclick="startGame()">Start</button><br><br>
+          <h3>What is the answer?</h3>
+          <h5 id="operation">0 + 0 = ?</h5>
+          <button onclick="checkAnswer(1)" id="btn1">0</button>
+          <button onclick="checkAnswer(2)" id="btn2">0</button><br>
+          <button onclick="checkAnswer(3)" id="btn3">0</button>
+          <button onclick="checkAnswer(4)" id="btn4">0</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html> 
